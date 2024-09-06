@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    height: 93%;
+    width: 100vw;
+    background-color: #557C56;
+}
+
+.conteudo_apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.conteudo_apresentacao_titulo {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    color: #FF885B;
+    margin-bottom: 40px;
+}
+
+.conteudo_apresentacao_titulo strong{
+    padding-left: 20px;
+    font-size: 80px;
+    font-weight: 800;
+    color: #FF885B;
+}
+
+.cabecalho_apresentacao_pesquisa {
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.cabecalho_apresentacao_botao {
+    height: 44px;
+    width: 90px;
+    padding: 3px 3px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #33372C;
+    color: white;  
+    cursor: pointer; 
+}
+
+.conteudo_exemplos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.conteudo_exemplos_exemplo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 410px;
+    padding: 20px;
+    gap: 15px;
+    color: aliceblue;
+    background-color: #33372C;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.conteudo_exemplos_exemplo_imagem {
+    width: 180px;
+    height: 120px;
+}
+
+.conteudo_exemplos_exemplo_info {
+    text-align: center;
+    gap: 10px;
+}
+
+.conteudo_pesquisa {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 60%;
+    max-height: 93%;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.conteudo_pesquisa_pesquisado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 410px;
+    padding: 20px;
+    gap: 15px;
+    color: aliceblue;
+    background-color: #33372C;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.busca_falha {
+    padding-left: 180px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.conteudo_pesquisa_pesquisado_imagem {
+    width: 180px;
+    height: 120px;
+}
+
+.conteudo_pesquisa_pesquisado_info {
+    text-align: center;
+    gap: 5px;
+}
+
+.rodape {
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #33372C;
+    color: white;
+    font-weight: 600;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+    .cabecalho_titulo {
+        font-size: 1.8rem;
+        letter-spacing: 0.1;
+    }
+
+    .cabecalho_pesquisa {
+        width: 17rem;
+    }
+
+    .cabecalho_botao {
+        padding: 0 1rem;
+        font-size: 0.9rem;
+    }
+
+    .rodape {
+        font-size: 0.9rem;
+    }
+}
