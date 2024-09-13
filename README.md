@@ -14,11 +14,6 @@ Ao acessar a página, você já se depara com quatro bandeiras escolhidas aleato
 * **CSS:** Responsável por deixar tudo bonitinho e organizado.
 * **JavaScript:** A mágica por trás da pesquisa e da exibição das bandeiras.
 
-**Como rodar o projeto:**
-
-1. **Clone o repositório:** Faça um clone deste repositório para sua máquina local.
-2. **Abra o index.html:** Abra o arquivo `index.html` em seu navegador favorito.
-
 **Para desenvolvedores:**
 
 * **dados.js:** Neste arquivo, você encontra todas as informações sobre as bandeiras, como nome, continente, curiosidades e link para mais detalhes.
