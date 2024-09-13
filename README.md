@@ -20,11 +20,11 @@ Ao acessar a página, você já se depara com quatro bandeiras escolhidas aleato
 * **script.js:** Aqui está toda a lógica da aplicação, desde a geração de números aleatórios para as bandeiras iniciais até a função de pesquisa.
 * **style.css:** Personalize a aparência do site como quiser!
 
-**O que você pode fazer:**
+**Coisas que desejo implementar:**
 
-* **Adicionar mais bandeiras:** Basta inserir novas informações no arquivo `dados.js`.
-* **Melhorar a pesquisa:** Experimente adicionar novas funcionalidades à pesquisa, como pesquisa por cor ou por símbolo da bandeira.
-* **Criar um modo aleatório:** Que tal um botão para gerar novas bandeiras aleatórias a cada clique?
+* **Adicionar mais bandeiras:** Inserir novas informações no arquivo `dados.js`.
+* **Melhorar a pesquisa:** Adicionar novas funcionalidades à pesquisa, como pesquisa por cor ou por símbolo da bandeira.
+* **Criar um modo aleatório:** Criar um botão para gerar novas bandeiras aleatórias a cada clique?
 
 **Contribuições são bem-vindas!**
 
